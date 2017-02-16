@@ -3,15 +3,15 @@ This code demonstrates the superiority of Bayes' Statistics in online updating o
 After copy, pasting, executing the code simply copy paste follwoing lines for a demonstration:
 
 
-mean=2
-sd=3
-data=5
-minlim=-3
-maxlim=3
+  mean=2;
+  sd=3;
+  data=5;
+  minlim=-3;
+  maxlim=3;
 
-bandit1=gauss_bandit(mean,sd)
-pull_and_update(bandit1,data)
-bandit1.predict(minlim,maxlim)
+  bandit1=gauss_bandit(mean,sd);
+  pull_and_update(bandit1,data);
+  bandit1.predict(minlim,maxlim);
 
 
 
